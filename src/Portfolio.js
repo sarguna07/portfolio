@@ -7,7 +7,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div class="card-group" style={{
-                width: "40%", margin: "50px auto",
+                width: "35%", margin: "50px auto",
                 boxShadow: "0px 0px 6px 1px #d0cdcd",
                 borderRadius: "10px",
                 display: "flex",
@@ -20,7 +20,7 @@ class Portfolio extends Component {
                 </div>
                 <div class="card">
                     <div class="card-body text-center">
-                        <div style={{ display: "flex" }}>
+                        <div style={{ display: "flex", alignItems: "center", paddingBottom: "20px" }}>
                             <div style={{ width: "50%", textAlign: "initial" }}>
                                 <h2 style={{ color: "black", margin: "0px" }}>Sarguna K</h2>
                                 <p class="card-text" style={{ color: "#847d7d" }}>Junior Software Developer</p>
@@ -38,6 +38,8 @@ class Portfolio extends Component {
                             Passionate about implementing and launching new projects.
                         </p>
                         <button type="button" class="btn btn-success">Resume</button>
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
