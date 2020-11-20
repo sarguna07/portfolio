@@ -40,7 +40,7 @@
     font-family: 'Cormorant', serif
   }
 
-  @media screen and (max-width: 580px) {
+  @media screen and (max-width: 700px) {
     .card_body {
       width: 85%;
       margin: 50px auto;
@@ -49,9 +49,19 @@
       display: flex;
       flex-direction: column;
     }
+
+    .company_logo {
+      width: 0px;
+    }
+
+    .name {
+      color: black;
+      margin: 0px;
+      font-size: 16px;
+    }
   }
 
-  @media screen and (min-width: 581px) {
+  @media screen and (min-width: 701px) {
     .card_body {
       width: 35%;
       margin: 50px auto;
@@ -59,6 +69,16 @@
       border-radius: 10px;
       display: flex;
       flex-direction: column;
+    }
+
+    .company_logo {
+      width: 100%;
+    }
+
+    .name {
+      color: black;
+      margin: 0px;
+      /* font-size: 18px; */
     }
   }
 </style>

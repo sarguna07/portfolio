@@ -2,19 +2,12 @@ import React, { Component } from 'react'
 import my_pic from "./sarguna.jpg";
 import katomaran from "./kato.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import resume from "./Resume.pdf"
+import resume from "./SargunaResume.pdf"
 class Portfolio extends Component {
     render() {
         return (
             <div
                 className="card_body"
-            //  style={{
-            //     width: "35%", margin: "50px auto",
-            //     boxShadow: "0px 0px 6px 1px #d0cdcd",
-            //     borderRadius: "10px",
-            //     display: "flex",
-            //     flexDirection: "column"
-            // }}
             >
                 <div class="card">
                     <div class="card-body text-center" style={{ padding: "0px" }}>
@@ -25,12 +18,12 @@ class Portfolio extends Component {
                     <div class="card-body text-center">
                         <div style={{ display: "flex", alignItems: "center", paddingBottom: "20px" }}>
                             <div style={{ width: "50%", textAlign: "initial" }}>
-                                <h2 style={{ color: "black", margin: "0px" }}>Sarguna K</h2>
+                                <h2 className="name">Sarguna K</h2>
                                 <p class="card-text" style={{ color: "#847d7d" }}>Junior Software Developer</p>
                             </div>
                             <div style={{ width: "50%", display: "flex" }}>
                                 <div style={{ width: "12%", textAlign: "center" }}>
-                                    <img src={katomaran} style={{ width: "100%" }}></img>
+                                    <img src={katomaran} className="company_logo"></img>
                                 </div>
                                 <p class="card-text" style={{ color: "#847d7d" }}>Katomaran Technology and Business Solution</p>
                             </div>
